@@ -1,0 +1,26 @@
+body {
+  background-color: honeydew;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+#principal {
+  width: 90%;
+  height: 800px;
+  margin: auto;
+  background-color: brown;
+  background-image: linear-gradient(red 10%, white 60%, black);
+}
+
+#secundario {
+  width: 90%;
+  height: 2000px;
+  margin: auto;
+  background-color: aqua;
+  background-image: url("https://i.pinimg.com/originals/64/45/ee/6445ee2274a782a7c528303e9bd823d7.gif");
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: 50%;
+  background-attachment:fixed;
+}
