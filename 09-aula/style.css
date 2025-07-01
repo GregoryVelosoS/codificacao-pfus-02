@@ -64,7 +64,7 @@ body{
 
 /* TIPO ABSOLUTE COM PAI ESTÁTICO*/
 #p-absolute{
-    background-color: blueviolet;
+    background-color: rgb(182, 116, 243);
     position: static;
 }
 
