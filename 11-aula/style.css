@@ -7,6 +7,11 @@ body{
     background-color: thistle;
 }
 
+header{
+    position: sticky;
+    top: 0px;
+}
+
 #navegacao{
     width: 80%;
     background-color: red;
@@ -16,6 +21,8 @@ body{
     color: white;
     font-size: 30px;
     overflow:hidden;
+    position: sticky;
+    top:0px;
 }
 
 .simbolo{
@@ -85,6 +92,23 @@ main{
     line-height: 200px;
 }
 
+#linha{
+    background-color: greenyellow;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.mini-linha{
+    background-color: brown;
+    margin-top: 5px;
+    height: 200px;
+    line-height: 200px;
+    width: 50%;
+    display: inline;
+}
+
 @media screen and (max-width: 900px){
     body{
         background-color: rgb(208, 208, 208);
@@ -135,6 +159,18 @@ main{
         margin-left: auto;
         margin-right: auto;
         font-size: 25px;
+    }
+    main{
+        width: 100%;
+        padding: 0px;
+    }
+    .mini-bloco{
+        width: 80%;
+        font-size: 20px;
+    }
+    .mini-linha{
+        font-size: 20px;
+        line-height: 100px;
     }
 }
 
